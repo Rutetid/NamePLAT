@@ -24,7 +24,7 @@ export default function Leaderboard({ avatarImages, gameMode, members, score }) 
     }
 
     const handleLeaveGame = () => {
-        window.location.reload();
+        navigate("/");
     }
 
     return (
